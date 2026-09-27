@@ -1,0 +1,23 @@
+Internet
+   |
+   v
+Internet Gateway
+   |
+   v
+Public Route Table
+0.0.0.0/0 -> IGW
+   |
+   v
+VPC 10.0.0.0/16
+   |
+   v
+Public Subnet 10.0.1.0/24
+   |
+   v
+Security Group
+   |
+   v
+EC2
+   |
+   v
+Nginx :80
