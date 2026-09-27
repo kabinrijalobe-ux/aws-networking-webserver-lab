@@ -280,3 +280,18 @@ My next project will expand this architecture using:
 - CloudWatch
 
 The goal will be to build a more secure and highly available AWS architecture.
+
+## Troubleshooting Flow
+Website not working?
+↓
+Check route table
+↓
+Check Security Group
+↓
+Check NACL
+↓
+Check public IP
+↓
+Check Nginx service
+↓
+Check listening port
